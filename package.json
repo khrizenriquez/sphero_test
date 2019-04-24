@@ -1,0 +1,23 @@
+{
+  "name": "sphero_node",
+  "version": "0.0.1",
+  "description": "Prueba de node js y el sphero",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khrizenriquez/sphero_test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Christofer Enriquez",
+  "license": "ISC",
+  "dependencies": {
+    "cylon-sphero": "^0.23.0"
+  },
+  "devDependencies": {
+    "noble": "^1.9.1",
+    "serialport": "^6.2.2",
+    "sphero": "^0.9.2"
+  }
+}
